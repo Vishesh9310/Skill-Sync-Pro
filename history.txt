@@ -1,0 +1,45 @@
+first(creation): create project by "npm create vite@latest command"
+
+second: install tailwind css in project
+
+third: install react-router-dom (for naviagtion inside the app, between the pages.)
+
+fourth: create browser router then creating nav bar for routing.
+
+fifth(Authentication + Authorization): install "npm install react-hook-form yup @hookform/resolvers axios react-router-dom" 
+    (react-hook-form = easy form handling
+    yup = validation rules banane ke liye
+    axios = HTTP request bhejne ke liye
+    react-router-dom = routing (pages banane ke liye))
+
+sixth: insted of fifth step we can use redux toolkit for authentication it is scalable and maintainable.
+    a. install: "npm install @reduxjs/toolkit react-redux"
+    b. create authSlice.js (inlcude, initialstate, creatSlice(reducers functions  [login, logout], initialstate, name))
+    c. store.js (initialize reducer)
+    d. create login.jsx (login form, with using dispatch slice functions)
+    e. create ProtectedRoute.jsx (it protect routes based on login functionality)
+    
+seventh(Dashboard + charts): in this module we customized dashboard page and add charts etc.
+    a. create welcomegreeting.jsx page
+    b. install "npm install recharts" 
+    c. create SkillChart.js
+    d. create TaskSummary.js
+    e. create CertificationCount.js
+    f. add all them together into Dashboard.jsx page.
+
+eigth(Skills Module): in this module we apply curd operations on the application for skills and listing all skill, add progress tracker with visula bar/charts and use Global state management ( SkillContext + Reducer)
+    a. create skillForm.js
+    b. create listskill.js
+    c. create SkillContext + useReducer ( Global State Management)
+    instead of c. we can use redux toolkit for global state management.
+    d. create main Skill.jsx page
+    e. wrap app with provider in app.js
+    instead of wrapping app.js with provider we wrap app.js in main.js file with provider store when we use redux toolkit.
+
+ninth: 
+
+
+
+
+12h(Blog/ note system): install react quill dependency
+    a. npm install react-quill
