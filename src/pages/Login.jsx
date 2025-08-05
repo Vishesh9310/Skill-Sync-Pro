@@ -47,7 +47,7 @@ const Login = () => {
           <h1 className="text-xl text-green-600 font-semibold">You are already logged in! Redirecting...</h1>
         </div>
       ) : (
-        <div className="max-w-md mx-auto mt-10 p-6 border rounded">
+        <div className="max-w-md mx-auto mt-10 p-6 border rounded h-full ">
           <h2 className="text-2xl font-bold mb-4">Login</h2>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div>

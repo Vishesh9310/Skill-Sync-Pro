@@ -93,11 +93,6 @@ const Home = () => {
           ⭐ View on GitHub
         </a>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 text-center">
-        <p>Developed by <span className="font-semibold">Vishesh</span> • SkillSync Pro © {new Date().getFullYear()}</p>
-      </footer>
     </div>
   );
 };

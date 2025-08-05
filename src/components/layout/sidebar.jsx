@@ -22,7 +22,7 @@ const sidebar = () => {
     };
 
   return (
-    <div className='h-fit'>
+    <div className='h-full'>
       <h1 className='font-semibold text-black text-3xl p-3'>SkillSync Pro</h1>
 
       <ul className='h-fit w-full my-5 text-black list-none text-lg'>
